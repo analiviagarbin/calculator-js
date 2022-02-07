@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Public+Sans&family=Roboto:wght@400;500&family=Varela+Round&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #FF9879;
+}
+
+.calculator {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #0d0b16;
+}
+
+table td{
+    display: inline-block;
+}
+
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #1b1730;
+    color: #ffdcd1;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: #2d264b;
+}
+
+.especial{
+    background-color: #FF9879;
+    color: #1b1730;
+    font-weight: 500;
+}
+
+.especial:hover{
+    background-color: #ffae95;
+}
+
+.result{
+    height: 100px;
+    width: 220px;
+    margin: 4px;
+    color: #ffdcd1;
+    text-align: right;
+    font-size: 35px;
+    word-wrap: break-word;
+    border-bottom: 1px solid #ffdcd1;
+}
